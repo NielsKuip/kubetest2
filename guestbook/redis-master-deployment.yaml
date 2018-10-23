@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: k8s.gcr.io/redis:e2e  # or just image: redis
+        image: eu.gcr.io/kubernetes2-218511/kubetest@sha256:7cc57337613f6f683ff2ac3ee9195e01478ccb0dd6606ae13c3908b7b823bf99  # or just image: redis
         resources:
           requests:
             cpu: 100m
